@@ -55,7 +55,7 @@ export default function Pricing() {
     <section id="pricing" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl sm:text-4xl font-display font-bold text-gray-900 mb-4">
             Pricing & Packages
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -73,7 +73,7 @@ export default function Pricing() {
             >
               {/* Popular Badge */}
               {plan.popular && (
-                <div className="absolute top-0 right-0 bg-accent text-white px-4 py-1 text-sm font-bold rounded-bl-lg">
+                <div className="absolute top-0 right-0 bg-primary text-white px-4 py-1 text-sm font-bold rounded-bl-lg">
                   RECOMMENDED
                 </div>
               )}
@@ -96,7 +96,7 @@ export default function Pricing() {
                     <span className="text-gray-600">{plan.period}</span>
                   </div>
                   {plan.savings && (
-                    <div className="text-green-600 font-semibold mt-2">
+                    <div className="text-primary font-semibold mt-2">
                       {plan.savings}
                     </div>
                   )}
@@ -106,7 +106,7 @@ export default function Pricing() {
                 <ul className="space-y-4 mb-8">
                   {plan.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start gap-3">
-                      <svg className="w-6 h-6 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                      <svg className="w-6 h-6 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                       </svg>
                       <span className="text-gray-700">{feature}</span>
@@ -130,13 +130,13 @@ export default function Pricing() {
         </div>
 
         {/* Special Offer Banner */}
-        <div className="bg-gradient-to-r from-accent/20 via-accent/10 to-accent/20 rounded-2xl p-8 text-center border-2 border-accent/30">
+        <div className="bg-gradient-to-r from-primary/10 via-primary/5 to-primary/10 rounded-2xl p-8 text-center border-2 border-primary/20">
           <div className="max-w-3xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-3">
+            <h3 className="text-2xl font-display font-bold text-gray-900 mb-3">
               🎉 Special Launch Offer
             </h3>
             <p className="text-lg text-gray-700 mb-4">
-              <span className="font-bold text-accent-dark">First 500 users get ₹1,000 OFF!</span>
+              <span className="font-bold text-primary">First 500 users get ₹1,000 OFF!</span>
               <br />
               Use code: <span className="font-mono font-bold bg-white px-3 py-1 rounded text-primary">WEALTHYHOME1999</span>
             </p>

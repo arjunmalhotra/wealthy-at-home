@@ -1,21 +1,21 @@
 export default function Testimonials() {
   const testimonials = [
     {
-      quote: "Finally, wealth management that fits my schedule! As a busy entrepreneur, I never had time to visit financial advisors. Wealthy at Home brought an expert to my office during lunch. Discovered I was over-allocated in small caps and saved ₹80,000 in taxes!",
+      quote: "Finally, wealth management that fits my schedule! As a busy entrepreneur, I never had time to visit financial advisors. The Wealthy advisor came to my office during lunch. Discovered I was over-allocated in small caps and saved ₹80,000 in taxes!",
       author: "Sanjay Reddy",
       location: "Bangalore",
       occupation: "Business Owner",
       rating: 5
     },
     {
-      quote: "Professional, knowledgeable, and zero pressure. The advisor spent 45 minutes understanding my goals and gave me a clear roadmap. No product pushing, just honest advice. Got my detailed report the next day!",
+      quote: "Professional, knowledgeable, and zero pressure. The Wealthy advisor spent 45 minutes understanding my goals and gave me a clear roadmap. No product pushing, just honest advice. Got my detailed report the next day!",
       author: "Meera Krishnan",
       location: "Mumbai",
       occupation: "Software Engineer",
       rating: 5
     },
     {
-      quote: "Best investment I made for my family's future. We took the Family Wealth Plan. Having quarterly check-ins has kept us on track for our daughter's education and our retirement. The convenience is unmatched.",
+      quote: "Best investment I made for my family's future. We took the Family Wealth Plan with Wealthy. Having quarterly check-ins has kept us on track for our daughter's education and our retirement. The convenience is unmatched.",
       author: "Amit & Neha Sharma",
       location: "Delhi",
       occupation: "Marketing Executive & Doctor",
@@ -34,7 +34,7 @@ export default function Testimonials() {
     <section id="testimonials" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl sm:text-4xl font-display font-bold text-gray-900 mb-4">
             Trusted by Thousands of Indians
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">

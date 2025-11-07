@@ -36,7 +36,7 @@ export default function HowItWorks() {
     <section id="how-it-works" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl sm:text-4xl font-display font-bold text-gray-900 mb-4">
             How It Works
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">

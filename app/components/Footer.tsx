@@ -9,9 +9,9 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300">
       {/* Main CTA Section */}
-      <div className="bg-gradient-to-r from-primary to-secondary py-16 px-4 sm:px-6 lg:px-8">
+      <div className="bg-gradient-to-r from-primary to-primary-dark py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+          <h2 className="text-3xl sm:text-4xl font-display font-bold text-white mb-4">
             Ready to Take Control of Your Wealth?
           </h2>
           <p className="text-xl text-white/90 mb-8">
@@ -34,14 +34,19 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-8">
           {/* About */}
           <div>
-            <h3 className="text-white font-bold text-lg mb-4">About Wealthy at Home</h3>
+            <img
+              src="https://i.wlycdn.com/wealthy-home-page/wealthy-new-purple-logo.svg"
+              alt="Wealthy"
+              className="h-8 mb-4 brightness-0 invert"
+            />
             <p className="text-sm leading-relaxed">
-              India's first on-demand wealth advisory service, bringing SEBI-registered financial advisors
+              On-demand wealth advisory service by Wealthy, bringing expert advisors
               to your doorstep in 30 minutes.
             </p>
             <div className="mt-4">
-              <p className="text-xs text-gray-400">Part of the Wealthy.in ecosystem</p>
-              <p className="text-xs text-gray-400">Trusted by 5+ lakh investors</p>
+              <a href="https://wealthy.in" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary-light transition-colors text-sm">
+                Visit Wealthy.in →
+              </a>
             </div>
           </div>
 
@@ -156,10 +161,10 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-gray-400 text-center md:text-left">
-              © 2025 Wealthy at Home. All rights reserved.
+              © 2025 Wealthy. All rights reserved.
             </p>
             <p className="text-xs text-gray-500 text-center">
-              Operated by [Company Legal Name], SEBI Registered Investment Adviser [Registration No.]
+              A service by Wealthy - India's leading platform for wealth management
             </p>
           </div>
           <div className="mt-4 text-center">

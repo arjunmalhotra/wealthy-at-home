@@ -37,11 +37,11 @@ export default function Advisors() {
     <section id="advisors" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            Advisor Excellence Framework
+          <h2 className="text-3xl sm:text-4xl font-display font-bold text-gray-900 mb-4">
+            Wealthy's Advisor Excellence Framework
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Only the most qualified and experienced advisors make it to your home
+            Trained, verified, and continuously monitored for exceptional service
           </p>
         </div>
 
@@ -54,8 +54,8 @@ export default function Advisors() {
           </div>
           <div className="bg-white rounded-xl p-6 shadow-md border border-gray-100">
             <div className="text-3xl mb-3">📚</div>
-            <h3 className="font-bold text-gray-900 mb-2">Mandatory Training</h3>
-            <p className="text-sm text-gray-600">30-day academy program with 25+ assessments</p>
+            <h3 className="font-bold text-gray-900 mb-2">Wealthy Academy Training</h3>
+            <p className="text-sm text-gray-600">30-day program with 25+ assessments</p>
           </div>
           <div className="bg-white rounded-xl p-6 shadow-md border border-gray-100">
             <div className="text-3xl mb-3">🔒</div>
@@ -71,8 +71,8 @@ export default function Advisors() {
 
         {/* Sample Advisor Profiles */}
         <div className="mb-12">
-          <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">
-            Meet Some of Our Expert Advisors
+          <h3 className="text-2xl font-display font-bold text-gray-900 text-center mb-8">
+            Meet Some of Our Wealthy Advisors
           </h3>
           <div className="grid md:grid-cols-3 gap-8">
             {advisors.map((advisor, index) => (
