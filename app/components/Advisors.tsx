@@ -6,7 +6,8 @@ export default function Advisors() {
       experience: "15 years",
       previousOrg: "Ex-ICICI Prudential",
       specialization: "Retirement & Tax Planning",
-      rating: "4.9"
+      rating: "4.9",
+      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop&crop=faces"
     },
     {
       name: "Priya Deshmukh",
@@ -14,7 +15,8 @@ export default function Advisors() {
       experience: "12 years",
       previousOrg: "Ex-Kotak Wealth",
       specialization: "HNI Portfolio Management",
-      rating: "4.8"
+      rating: "4.8",
+      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&crop=faces"
     },
     {
       name: "Arun Kumar",
@@ -22,7 +24,8 @@ export default function Advisors() {
       experience: "11 years",
       previousOrg: "Ex-HDFC Securities",
       specialization: "Equity & Goal Planning",
-      rating: "4.9"
+      rating: "4.9",
+      image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop&crop=faces"
     }
   ];
 
@@ -77,9 +80,13 @@ export default function Advisors() {
           <div className="grid md:grid-cols-3 gap-8">
             {advisors.map((advisor, index) => (
               <div key={index} className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100">
-                {/* Avatar Placeholder */}
-                <div className="w-20 h-20 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center text-white text-2xl font-bold mb-4 mx-auto">
-                  {advisor.name.split(' ').map(n => n[0]).join('')}
+                {/* Avatar Image */}
+                <div className="w-24 h-24 mb-4 mx-auto">
+                  <img
+                    src={advisor.image}
+                    alt={advisor.name}
+                    className="w-full h-full rounded-full object-cover border-4 border-primary/10"
+                  />
                 </div>
 
                 <div className="text-center">

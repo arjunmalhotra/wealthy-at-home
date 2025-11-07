@@ -7,12 +7,25 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative bg-gradient-to-br from-primary/5 via-white to-primary/10 pt-8 pb-32 px-4 sm:px-6 lg:px-8 overflow-hidden">
-      {/* Background decorative elements */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-0 left-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
+    <section className="relative pt-8 pb-32 px-4 sm:px-6 lg:px-8 overflow-hidden">
+      {/* Background Image */}
+      <div
+        className="absolute inset-0 z-0"
+        style={{
+          backgroundImage: 'url(https://i.wlycdn.com/wealthy-home-page/partner-home-hero-image.jpg)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      />
+      {/* Overlay for text readability */}
+      <div className="absolute inset-0 bg-gradient-to-br from-white/95 via-white/90 to-primary/20 z-0"></div>
 
-      <div className="relative max-w-7xl mx-auto">
+      {/* Decorative elements */}
+      <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl z-0"></div>
+      <div className="absolute bottom-0 left-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl z-0"></div>
+
+      <div className="relative max-w-7xl mx-auto z-10">
         {/* Logo */}
         <div className="mb-12 text-center">
           <img
